@@ -1,0 +1,22 @@
+[project]
+name = "maibot-report-to-admin-plugin"
+version = "1.2.0"
+description = "向管理员私聊和管理群转发证据，并由 MaiBot 的正常回复流程生成小报告"
+license = "MIT"
+authors = [{name = "YukiSakiko"}]
+requires-python = ">=3.12"
+dependencies = ["maibot-plugin-sdk>=2.10.0,<3"]
+
+[dependency-groups]
+dev = ["pytest", "pytest-asyncio", "ruff>=0.12.2"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+ignore = ["E501"]
