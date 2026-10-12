@@ -1,6 +1,6 @@
 [project]
 name = "maibot-report-to-admin-plugin"
-version = "1.2.0"
+version = "1.2.1"
 description = "向管理员私聊和管理群转发证据，并由 MaiBot 的正常回复流程生成小报告"
 license = "MIT"
 authors = [{name = "YukiSakiko"}]

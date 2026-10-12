@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "id": "YukiSakiko.report_to_admin_plugin",
   "name": "小报告",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "遇到不良言论、威胁或骚扰时，向指定管理员私聊或管理群转发原消息，再由麦麦通过正常回复流程汇报，支持同时发送到两处。",
   "author": {"name": "YukiSakiko", "url": "https://github.com/YukiSakiko"},
   "urls": {
@@ -10,6 +10,7 @@
     "documentation": "https://github.com/Mai-with-u/maibot-plugin-sdk/blob/main/docs/guide.md"
   },
   "license": "MIT",
+  "display": {"icon": {"type": "local", "value": "assets/icon.webp"}},
   "host_application": {"min_version": "1.3.6", "max_version": "1.3.99"},
   "sdk": {"min_version": "2.10.0", "max_version": "2.99.99"},
   "dependencies": [],
