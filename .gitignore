@@ -1,5 +1,6 @@
 config.toml
 config_back/
+tests/
 .venv/
 __pycache__/
 .pytest_cache/
